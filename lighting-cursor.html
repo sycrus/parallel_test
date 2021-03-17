@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AR Cursor and lighting test</title>
+    <meta name="description" content="AR Cursor and lighting test" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Aframe library -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+    <!--AR.js Marker Tracking. for Image Tracking use the other -->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <!-- Aframe extra loaders, for playing GLTF animations -->
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script>
+      AFRAME.registerComponent("animation-control", {
+        schema: { default: "" },
+        init() {
+          const knight = document.querySelector("#knight");
+          const pedestal = document.querySelector("#pedestal");
+          var scene = document.querySelector("a-scene");
+        },
+        update: function() {
+          pedestal.addEventListener("mouseenter", function(evt) {
+            knight.setAttribute("animation-mixer", "clip","SwordAndShieldRun");
+            knight.setAttribute("animation-mixer", "crossFadeDuration: .3")
+          });
+          pedestal.addEventListener("mouseleave", function(evt) {
+            knight.setAttribute("animation-mixer", "clip","SwordAndShieldIdle");
+            knight.setAttribute("animation-mixer", "crossFadeDuration: .3")
+          });
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <a-scene
+      embedded
+      artoolkit
+      vr-mode-ui="enabled: true;"
+      arjs="sourceType: webcam;
+            sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;
+            trackingMode: best;
+            maxDetectionRate: 60;
+            detectionMode: mono_and_matrix;
+            matrixCodeType: 3x3;
+            debugUIEnabled: false;"
+    >
+      <a-assets>
+        <!-- Example for preloading GLTF model -->
+        <a-asset-item
+          id="gltfSrc"
+          src="https://rawcdn.githack.com/sycrus/parallel_test/873969f4f6a4d6a08be82e2ea56e72e5afdf20e6/assets/test/test gltf/scene.gltf"
+        >
+        </a-asset-item>
+
+        <a-asset-item
+          id="gltf2Src"
+          src="https://rawcdn.githack.com/sycrus/parallel_test/c22603e771aa6b077fba68849745cbe7527a611d/assets/test/test gltf 3/scene.gltf"
+        >
+        </a-asset-item>
+
+        <!-- Examples for preloading GLB model -->
+        <a-asset-item
+          id="glb1Src"
+          src="https://rawcdn.githack.com/sycrus/parallel_test/9c5b375f36080d30a310e4be9b6863f75bd197ee/assets/test/test glb/31_png.glb"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="glb2Src"
+          src="https://cdn.glitch.com/581cd10b-4f90-4d2a-bd3e-ed491b486ff5%2Fcar.glb"
+        ></a-asset-item>
+
+        <!-- Example for preloading image/texture -->
+        <img
+          id="materialSrc"
+          src="https://rawcdn.githack.com/sycrus/parallel_test/038af840b15205f8c04b0f9c5ed2e4651dae6e4c/assets/test/stone.png"
+          crossorigin="anonymous"
+        />
+
+        <!-- Example for preloading video, doesn't exist -->
+        <video
+          id="vid"
+          src="https://rawcdn.githack.com/sycrus/images/f21a26856bdb522af35b395d2afda1c884a4917d/wunderkarmmer/chessboard.mp4"
+          preload="auto"
+          allow="autoplay"
+          autoplay
+          loop="true"
+          webkit-playsinline
+          playsinline
+          controls
+        ></video>
+
+        <!-- Example for preloading audio, from A-Frame example -->
+        <!--         <audio
+          src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav"
+          autoplay
+          preload
+        ></audio> -->
+      </a-assets>
+      <a-entity
+        id="ambientLight"
+        light="type: ambient; color: #FFF; intensity: 0.2"
+        target="#directionaltarget"
+      >
+      </a-entity>
+
+      <a-marker id="testMarker" type="barcode" value="0">
+        <a-entity scale="0.5 0.5 0.5">
+          <a-entity id="lights">
+            <a-entity id="leftFillLight" light="type: directional; color: #FFF; intensity: 1" position="-8 8 1.5" target="#directionaltarget" >
+              <!--  <a-sphere id="leftFillPos" material="color: blue" radius="0.1" ></a-sphere> -->
+            </a-entity>
+
+            <a-entity id="rightFillLight" light="type: directional; color: #FFF; intensity: 1" position="8 8 1.5" target="#directionaltarget" >
+              <!--            <a-sphere id="rightFillPos" material="color: red" radius="0.1" ></a-sphere>  -->
+            </a-entity>
+
+            <a-entity id="backLight" light="type: directional; color: #FFF; intensity: 0.8" position="0 0.5 -1" target="#directionaltarget" >
+              <!--             <a-sphere id="backFillPos" material="color: green" radius="0.1" ></a-sphere> -->
+            </a-entity>
+
+            <a-entity id="frontLight" light="type: directional; color: #FFF; intensity: 2" position="0 1 8" target="#directionaltarget">
+              <!--             <a-sphere id="backFillPos" material="color: green" radius="0.1" ></a-sphere> -->
+            </a-entity>
+          </a-entity>
+
+          <a-entity id="pedestal" class="clickable" animation-control geometry="primitive: cone; radiusBottom: 1.2; radiusTop: 1; height: 0.5" material="src: #materialSrc; displacement-texture-repeat: 0.5 0.5" position="0 -0.25 0" shadow="receive: true">
+            <a-gltf-model id="knight"  src="#gltfSrc" position="0 0.2 0" scale="1 1 1" shadow="cast: true" ></a-gltf-model>
+          
+            <a-entity id="directionaltarget" position="0 1 0">
+              <!--               <a-sphere id="targetPos" material="color: yellow" shadow="cast: false" radius="0.1"></a-sphere> -->
+            </a-entity>
+          </a-entity>
+        </a-entity>
+      </a-marker>
+
+      <a-camera position="0 0 0" look-controls="enabled:false">
+          <a-entity raycaster="objects: .clickable" cursor="fuse: true; fuseTimeout: 100" position="0 0 -1" geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.015" material="color: green; shader: flat">
+            <a-animation begin="click" easing="ease-in" attribute="scale" fill="backwards" from="0.1 0.1 0.1" to="1 1 1" ></a-animation>
+            <a-animation begin="cursor-fusing" easing="ease-in" attribute="scale" fill="forwards" from="1 1 1" to="0.1 0.1 0.1" ></a-animation>
+          </a-entity>
+        
+        <!-- Light position relative to camera -->
+        <a-entity id="keyLight" light="type: directional; color: #FFF; intensity: 0.8; castShadow: true" position="0 1 2" target="#directionaltarget" >
+          <a-box id="keyLightPos" material="color: white" width="0.5" depth="0.5" height="0.5" ></a-box> 
+        </a-entity>
+      </a-camera>
+      
+      
+    </a-scene>
+  </body>
+</html>
