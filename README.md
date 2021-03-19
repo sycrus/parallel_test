@@ -12,6 +12,9 @@ Useful links for later:
 [p5.js with A-Frame](https://editor.p5js.org/micuat/sketches/0waMKDEi)
 
 Asset sources:\
+Sample Assets:\
+https://github.com/aframevr/sample-assets/tree/master/assets
+
 Knight\
 https://sketchfab.com/3d-models/warcraft-3-alliance-footmanfanmade-201452e568064aedadccfafb668ef6a5
 
