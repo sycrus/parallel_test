@@ -7,7 +7,7 @@ Useful links for later:
 [Text geometry component](https://github.com/supermedium/superframe/tree/master/components/text-geometry/)\
 [Masking for hole in floor effect](https://stackoverflow.com/questions/56192021/how-to-declare-a-mask-material-using-a-frame-js)\
 [A-Frame timeline](https://github.com/supermedium/superframe/tree/master/components/animation-timeline/)\
-[Randomizer](https://github.com/supermedium/superframe/tree/master/components/randomizer/)
+[Randomizer](https://github.com/supermedium/superframe/tree/master/components/randomizer/)\
 [Shaderfrog](https://github.com/msj121/aframeFrogShaders)
 
 model sources:\
