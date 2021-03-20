@@ -1,6 +1,9 @@
 # parallel_test
 A-Frame + AR.js testing space for MFADT 2021 grad show.  
 
+## TESTS: ##
+[Github Page with all the tests](https://sycrus.github.io/parallel_test/)
+
 ## Animation: ##
 [A-Frame Animation Timeline component](https://github.com/supermedium/superframe/tree/master/components/animation-timeline/)
 
