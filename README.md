@@ -5,12 +5,13 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [A-Frame Animation Timeline component](https://github.com/supermedium/superframe/tree/master/components/animation-timeline/)
 
 ## Text related: ##
-[a-text in A-Frame](https://aframe.io/docs/1.2.0/primitives/a-text.html#attributes) \ 
+[a-text in A-Frame](https://aframe.io/docs/1.2.0/primitives/a-text.html#attributes/) \
 [TTF to MSDF for use in 2D body text in A-Frame](https://msdf-bmfont.donmccurdy.com/) \
 [Text Geometry Component for 3D titles etc](https://github.com/supermedium/superframe/tree/master/components/text-geometry/) \
 [Convert fonts to json for Text Geometry Component](http://gero3.github.io/facetype.js/)
 
 ## Useful links for later: ##
+[Raw GitHack to serve CORS headers](https://raw.githack.com/) \
 [Masking for hole in floor effect](https://stackoverflow.com/questions/56192021/how-to-declare-a-mask-material-using-a-frame-js) \
 [Randomizer](https://github.com/supermedium/superframe/tree/master/components/randomizer/) \
 [Shaderfrog component](https://github.com/msj121/aframeFrogShaders) \
