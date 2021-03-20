@@ -5,7 +5,7 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [A-Frame Animation Timeline component](https://github.com/supermedium/superframe/tree/master/components/animation-timeline/)
 
 ## Text related: ##
-[TTF to MSDF for use in body text in A-Frame](https://msdf-bmfont.donmccurdy.com/) \
+[TTF to MSDF for use in body text (2D) in A-Frame](https://msdf-bmfont.donmccurdy.com/) \
 [Text Geometry Component for 3D titles etc](https://github.com/supermedium/superframe/tree/master/components/text-geometry/) \
 [Convert fonts to json for Text Geometry Component](http://gero3.github.io/facetype.js/)
 
