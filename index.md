@@ -5,4 +5,4 @@
 [Category Layout 1](https://layout-2-ar.glitch.me/)
 
 You'll need this marker for the AR tests:\
-![](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png)
+![Barcode 0](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png)
