@@ -20,5 +20,6 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 ## Asset sources: ##
 [Sample Assets](https://github.com/aframevr/sample-assets/tree/master/assets) \
 [Knight](https://sketchfab.com/3d-models/warcraft-3-alliance-footmanfanmade-201452e568064aedadccfafb668ef6a5) \
-[Glitch shader](https://shaderfrog.com/app/view/1932)
+[Glitch shader](https://shaderfrog.com/app/view/1932) \
+[Google Fonts in A-Frame](https://github.com/etiennepinchon/aframe-fonts)
 
