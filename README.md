@@ -27,7 +27,8 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [Randomizer](https://github.com/supermedium/superframe/tree/master/components/randomizer/) \
 [Shaderfrog component](https://github.com/msj121/aframeFrogShaders) \
 [p5.js with A-Frame](https://editor.p5js.org/micuat/sketches/0waMKDEi) \
-[A-Frame 3D Gui](https://github.com/rdub80/aframe-gui)
+[A-Frame 3D Gui](https://github.com/rdub80/aframe-gui)\
+[HTML buttons changing models](https://medium.com/swlh/build-your-location-based-augmented-reality-web-app-a841956eed2c)
 
 ## Asset sources: ##
 [Sample Assets](https://github.com/aframevr/sample-assets/tree/master/assets) \
