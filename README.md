@@ -26,7 +26,8 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [Masking for hole in floor effect](https://stackoverflow.com/questions/56192021/how-to-declare-a-mask-material-using-a-frame-js) \
 [Randomizer](https://github.com/supermedium/superframe/tree/master/components/randomizer/) \
 [Shaderfrog component](https://github.com/msj121/aframeFrogShaders) \
-[p5.js with A-Frame](https://editor.p5js.org/micuat/sketches/0waMKDEi)
+[p5.js with A-Frame](https://editor.p5js.org/micuat/sketches/0waMKDEi) \
+[A-Frame 3D Gui](https://github.com/rdub80/aframe-gui)
 
 ## Asset sources: ##
 [Sample Assets](https://github.com/aframevr/sample-assets/tree/master/assets) \
