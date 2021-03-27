@@ -8,7 +8,8 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [Project Layout 1, VR](https://glitch.com/edit/#!/parallel-layout-1?path=index.html%3A1%3A0) \
 [Project Layout 1, AR](https://glitch.com/edit/#!/layout-1-ar?path=index.html%3A1%3A0) \
 [Category Layout 1, AR](https://glitch.com/edit/#!/layout-2-ar) \
-[GLTF GLB Tests, AR](https://glitch.com/edit/#!/blender-gltf-glb-test?path=index.html%3A149%3A8)
+[GLTF GLB Tests, AR](https://glitch.com/edit/#!/blender-gltf-glb-test?path=index.html%3A149%3A8) \
+[Category Layout 3, AR](https://glitch.com/edit/#!/category-layout-3?path=index.html%3A3%3A72)
 
 ## Animation: ##
 [A-Frame Animation Timeline component](https://github.com/supermedium/superframe/tree/master/components/animation-timeline/)
