@@ -17,6 +17,3 @@
 1. Launch the prototype on your phone's browser
 2. Scan this marker: \
 ![Link to Barcode 0](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png?raw=true "0")
-
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vu0TgpjbhaPvth9pdLhHv4FcnqKp-uYS" width="640" height="480"></iframe>
