@@ -5,7 +5,8 @@
 
 ## Category Layouts ##
 [Category Layout 1](https://layout-2-ar.glitch.me/) \
-[Category Layout 2](https://category-layout-2.glitch.me/)
+[Category Layout 2](https://category-layout-2.glitch.me/) \
+[Category Layout 3](https://category-layout-3.glitch.me/)
 
 ## Aesthetic tests, Interactions ##  
 [Github Pages test, AR Lighting and Cursor test](https://sycrus.github.io/parallel_test/lighting-cursor.html) \
