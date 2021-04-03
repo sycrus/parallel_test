@@ -11,9 +11,11 @@
 ## Aesthetic tests, Interactions ##  
 [Github Pages test, AR Lighting and Cursor test](https://sycrus.github.io/parallel_test/lighting-cursor.html) \
 [Tap Interaction Test, AR](https://tap-interaction-test.glitch.me/) \
-[GLTF GLB 3D model test](https://blender-gltf-glb-test.glitch.me/)
+[GLTF GLB 3D model test](https://blender-gltf-glb-test.glitch.me/) \
+[Layer test](https://parallel-layer-test.glitch.me/)
 
 ## How to use ##
-1. Launch the prototype on your phone's browser
-2. Scan this marker: \
+1. Click on links to the prototypes on your phone's browser
+2. Allow camera access
+3. Scan this marker: \
 ![Link to Barcode 0](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png?raw=true "0")
