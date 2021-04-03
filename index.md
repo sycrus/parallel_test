@@ -13,6 +13,7 @@
 [Github Pages test, AR Lighting and Cursor test](https://sycrus.github.io/parallel_test/lighting-cursor.html) \
 [Tap Interaction Test, AR](https://tap-interaction-test.glitch.me/) \
 [GLTF GLB 3D model test](https://blender-gltf-glb-test.glitch.me/) \
+[Material test](https://parallel-material-test.glitch.me/)\
 [Layer test](https://parallel-layer-test.glitch.me/)
 
 ## How to use ##
