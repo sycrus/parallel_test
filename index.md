@@ -1,6 +1,7 @@
 
 ## Project Layouts ##
 [Project Layout 1 in VR,  Text, Animation test](https://parallel-layout-1.glitch.me/) \
+[Project Layout 1 using Bolor's work](https://bolor-project-example.glitch.me/) \
 [Project Layout 1 in AR, does not work as intended in iOS](https://layout-1-ar.glitch.me/) 
 
 ## Category Layouts ##
