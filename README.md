@@ -11,7 +11,7 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 
 [Category Layout 1, AR](https://glitch.com/edit/#!/layout-2-ar) \
 [Category Layout 2, AR](https://glitch.com/edit/#!/category-layout-2) \
-[Category Layout 3, AR](https://glitch.com/edit/#!/category-layout-3?path=index.html%3A3%3A72) \
+[Category Layout 3, AR](https://glitch.com/edit/#!/category-layout-3?path=index.html%3A3%3A72)
 
 [GLTF GLB Tests, AR](https://glitch.com/edit/#!/blender-gltf-glb-test?path=index.html%3A149%3A8) 
 
@@ -33,7 +33,8 @@ A-Frame + AR.js testing space for MFADT 2021 grad show.
 [Shaderfrog component](https://github.com/msj121/aframeFrogShaders) \
 [p5.js with A-Frame](https://editor.p5js.org/micuat/sketches/0waMKDEi) \
 [A-Frame 3D Gui](https://github.com/rdub80/aframe-gui)\
-[HTML buttons changing models](https://medium.com/swlh/build-your-location-based-augmented-reality-web-app-a841956eed2c)
+[HTML buttons changing models](https://medium.com/swlh/build-your-location-based-augmented-reality-web-app-a841956eed2c)\
+[Rough Guide to Centering objects on NFT markers](https://stackoverflow.com/questions/61589342/how-can-i-position-an-a-frame-object-to-bottom-left-corner-of-the-marker-and-ma)
 
 ## Asset sources: ##
 [Sample Assets](https://github.com/aframevr/sample-assets/tree/master/assets) \
