@@ -1,3 +1,9 @@
+## How to use ##
+1. Click on links to the prototypes on your phone's browser
+2. Allow camera access
+3. Scan this marker: \
+![Link to Barcode 0](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png?raw=true "0")
+
 
 ## Project Layouts ##
 [Project Layout 1 in VR,  Text, Animation test](https://parallel-layout-1.glitch.me/) \
@@ -16,8 +22,3 @@
 [Material test](https://parallel-material-test.glitch.me/)\
 [Layer test](https://parallel-layer-test.glitch.me/)
 
-## How to use ##
-1. Click on links to the prototypes on your phone's browser
-2. Allow camera access
-3. Scan this marker: \
-![Link to Barcode 0](https://github.com/sycrus/parallel_test/blob/main/assets/test/0%20marker.png?raw=true "0")
