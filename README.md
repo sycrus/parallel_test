@@ -2,7 +2,7 @@
 A-Frame + AR.js testing space for MFADT 2021 grad show.  
 
 ## TESTS: ##
-[Github Page with all the tests](https://sycrus.github.io/parallel_test/)
+[Final Postcard website](https://sycrus.github.io/parallel_test/)
 
 ## GLITCHES: ##
 [Project Layout 1, VR](https://glitch.com/edit/#!/parallel-layout-1?path=index.html%3A1%3A0) \
